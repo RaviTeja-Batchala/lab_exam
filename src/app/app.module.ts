@@ -3,10 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { InputComponent } from './bmi-calculator/input/input.component';
+import { DisplayComponent } from './bmi-calculator/display/display.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    InputComponent,
+    DisplayComponent
   ],
   imports: [
     BrowserModule,

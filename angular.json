@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "bmi"
+    }
+  },
+  "defaultProject": "bmi",
+  "cli": {
+    "analytics": false
+  }
 }
